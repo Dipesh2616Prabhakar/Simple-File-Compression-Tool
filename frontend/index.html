@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Compression Tool</title>
+</head>
+<body>
+    <h1>Simple File Compression Tool</h1>
+    <form action="/compress" method="post" enctype="multipart/form-data">
+        <label>Select file to compress:</label>
+        <input type="file" name="file">
+        <button type="submit">Compress</button>
+    </form>
+    <br>
+    <form action="/decompress" method="post" enctype="multipart/form-data">
+        <label>Select file to decompress:</label>
+        <input type="file" name="file">
+        <button type="submit">Decompress</button>
+    </form>
+</body>
+</html>
